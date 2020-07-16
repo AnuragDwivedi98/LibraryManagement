@@ -1,2 +1,0 @@
-# LibraryManagement
-SpringBoot+JPA+REstAPI
