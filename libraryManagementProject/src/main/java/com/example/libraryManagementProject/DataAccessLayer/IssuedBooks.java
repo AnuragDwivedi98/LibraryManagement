@@ -1,13 +1,8 @@
 package com.example.libraryManagementProject.DataAccessLayer;
 
-import org.springframework.web.bind.annotation.RestController;
+import javax.persistence.*;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@RestController
+@Entity
 public class IssuedBooks {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
